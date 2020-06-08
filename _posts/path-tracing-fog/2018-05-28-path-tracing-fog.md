@@ -3,7 +3,7 @@ title: Path Tracing Fog
 date: 2018-05-28 10:00:00 -07:00
 tags: [c++, cpu, gpu, ray-tracing, path-tracing, volumetric-scattering]
 description: Utilizes volumetric scattering and ray marching
-image: /path-tracing-fog/1.jpg
+image: /assets/img/path-tracing-fog/1.jpg
 ---
 
 ## Rendering Fog
@@ -14,7 +14,7 @@ The goal of this project was to capture realistic shadows in between the shadow 
 
 The following image depicts the type of effect desired for this project (volumetric scattering):
 <figure>
-<img src="/path-tracing-fog/1.jpg" alt="attic">
+<img src="/assets/img/path-tracing-fog/1.jpg" alt="attic">
 <figcaption>stock photo of dust particles</figcaption>
 </figure>
 Although the picture shows dust, generating fog is very similar.
@@ -23,22 +23,22 @@ Although the picture shows dust, generating fog is very similar.
 
 Final image:
 <figure>
-<img src="/path-tracing-fog/final.png" alt="final">
+<img src="/assets/img/path-tracing-fog/final.png" alt="final">
 <figcaption>Final path traced image</figcaption>
 </figure>
 
 Without the effect:
 <figure>
-<img src="/path-tracing-fog/original.png" alt="original">
+<img src="/assets/img/path-tracing-fog/original.png" alt="original">
 <figcaption>Control example</figcaption>
 </figure>
 
 Other generated examples:
 <figure>
-<img src="/path-tracing-fog/good.png" alt="good">
+<img src="/assets/img/path-tracing-fog/good.png" alt="good">
 </figure>
 <figure>
-<img src="/path-tracing-fog/nice.png" alt="nice">
+<img src="/assets/img/path-tracing-fog/nice.png" alt="nice">
 </figure>
 
 ### How does it work?
@@ -46,7 +46,7 @@ Other generated examples:
 I used volumetric scattering to get this effect.
 
 <figure>
-<img src="/path-tracing-fog/eq.png" alt="equation">
+<img src="/assets/img/path-tracing-fog/eq.png" alt="equation">
 <figcaption>equation used</figcaption>
 </figure>
 
